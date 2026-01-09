@@ -10,7 +10,10 @@ const app = express();
 connecDB();
 
 app.use(cors({
-  origin: process.env.CLIENT_URL,
+  origin: [
+    "http://localhost:5173",
+    "https://quicknote-mern.vercel.app"
+  ],
   credentials: true,
 }));
 app.use(express.json());
