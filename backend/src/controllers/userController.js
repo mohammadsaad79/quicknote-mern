@@ -142,7 +142,7 @@ exports.forgotPassword = async (req, res) => {
       .update(resetToken)
       .digest("hex");
 
-    user.resetPasswordExpire = Date.now() + 10 * 60 * 1000; // 10 min
+    user.resetPasswordExpire = Date.now() + 10 * 60 * 1000;
 
     await user.save({ validateBeforeSave: false });
 
