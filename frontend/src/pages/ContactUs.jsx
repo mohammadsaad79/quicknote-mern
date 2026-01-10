@@ -38,7 +38,7 @@ export default function ContactUs() {
           <div className="flex flex-col gap-8 p-8 border border-gray-200 bg-white rounded-xl justify-center items-center hover:shadow-lg">
             <div className="p-3 rounded-xl bg-blue-500"><Mail size={25} color="white"/></div>
             <h3 className="font-semibold text-lg">Email Us</h3>
-            <p>saad0786mohd@gmail.com</p>
+            <p>saadayinas9322@gmail.com</p>
             <small className="text-gray-600">Send us an email any time</small>
           </div>
           <div className="flex flex-col gap-8 p-8 border border-gray-200 bg-white rounded-xl justify-center items-center hover:shadow-lg">

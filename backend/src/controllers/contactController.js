@@ -18,7 +18,7 @@ exports.sendMessage = async (req, res) => {
     `;
 
     await sendEmail(
-      "saad0786mohd@gmail.com",
+      "saadayinas9322@gmail.com",
       `New Contact Query: ${subject}`,
       html
     );
